@@ -1,0 +1,92 @@
+[
+  {
+    "key": "31a7a9bd8cc2d8c9",
+    "content": "Durable convention: run tests with uv run pytest -q, sample 0.",
+    "category": "convention",
+    "source_session": "s-0",
+    "supersedes": null,
+    "active": true,
+    "created_at": ""
+  },
+  {
+    "key": "9e92e66353ab6993",
+    "content": "Durable convention: run tests with uv run pytest -q, sample 3.",
+    "category": "convention",
+    "source_session": "s-3",
+    "supersedes": null,
+    "active": true,
+    "created_at": ""
+  },
+  {
+    "key": "21246f9715a6576c",
+    "content": "Durable convention: run tests with uv run pytest -q, sample 6.",
+    "category": "convention",
+    "source_session": "s-6",
+    "supersedes": null,
+    "active": true,
+    "created_at": ""
+  },
+  {
+    "key": "33bb10bea0e580b0",
+    "content": "Durable convention: run tests with uv run pytest -q, sample 9.",
+    "category": "convention",
+    "source_session": "s-9",
+    "supersedes": null,
+    "active": true,
+    "created_at": ""
+  },
+  {
+    "key": "38c98f932f771f2d",
+    "content": "Durable convention: run tests with uv run pytest -q, sample 12.",
+    "category": "convention",
+    "source_session": "s-12",
+    "supersedes": null,
+    "active": true,
+    "created_at": ""
+  },
+  {
+    "key": "35c4ac0a4d8831e4",
+    "content": "Durable convention: run tests with uv run pytest -q, sample 15.",
+    "category": "convention",
+    "source_session": "s-15",
+    "supersedes": null,
+    "active": true,
+    "created_at": ""
+  },
+  {
+    "key": "dd528ba708d81410",
+    "content": "Durable convention: run tests with uv run pytest -q, sample 18.",
+    "category": "convention",
+    "source_session": "s-18",
+    "supersedes": null,
+    "active": true,
+    "created_at": ""
+  },
+  {
+    "key": "4a19ef6f3901e6ca",
+    "content": "Durable convention: run tests with uv run pytest -q, sample 21.",
+    "category": "convention",
+    "source_session": "s-21",
+    "supersedes": null,
+    "active": true,
+    "created_at": ""
+  },
+  {
+    "key": "cf4c1f39801bdd5f",
+    "content": "Durable convention: run tests with uv run pytest -q, sample 24.",
+    "category": "convention",
+    "source_session": "s-24",
+    "supersedes": null,
+    "active": true,
+    "created_at": ""
+  },
+  {
+    "key": "8b7ef85c2d25e97f",
+    "content": "Durable convention: run tests with uv run pytest -q, sample 27.",
+    "category": "convention",
+    "source_session": "s-27",
+    "supersedes": null,
+    "active": true,
+    "created_at": ""
+  }
+]

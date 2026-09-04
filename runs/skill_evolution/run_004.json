@@ -1,0 +1,24 @@
+{
+  "run_id": "skill-evolution-004",
+  "skill_v1": "---\nname: safe-project-release\nversion: 1\ndescription: Reusable release checks for a project.\ntrigger: release, publish, or handoff request\n---\n\n# Safe Project Release v1\n\n1. Run tests.\n2. Scan secrets.\n3. Check large files.\n4. Verify README and LICENSE.\n5. Check git status.\n6. Commit.\n7. Push.\n\nValidation: tests pass and remote push is reported.\nKnown pitfalls: v1 does not run a final regression after pre-push changes.\n",
+  "failure": {
+    "ok": false,
+    "error": "push happened without final regression test",
+    "skill_version": 1,
+    "evidence": "fixture deliberately changes behavior after pre-push checks"
+  },
+  "decision": "update",
+  "skill_v2": "---\nname: safe-project-release\nversion: 2\ndescription: Reusable release checks for a project.\ntrigger: release, publish, or handoff request\n---\n\n# Safe Project Release v2\n\n1. Run tests.\n2. Scan secrets.\n3. Check large files.\n4. Verify README and LICENSE.\n5. Check git status.\n6. Commit.\n7. Run the final regression test after commit and before push.\n8. Push and verify remote SHA.\n\nValidation: final regression passes and local SHA equals verified remote SHA.\nKnown pitfalls: never infer remote delivery from a successful local push command.\n",
+  "corrected_run": {
+    "ok": true,
+    "skill_version": 2,
+    "steps": [
+      "final regression",
+      "verified remote SHA"
+    ]
+  },
+  "skill_evolution_recovery": 1.0,
+  "regression": "PASS",
+  "provider": null,
+  "cost_usd": null
+}

@@ -1,0 +1,4 @@
+policy,memory_files,memory_bytes,estimated_tokens,duplicate_count,useful_memory_precision
+save_everything,1,6813,1703,0,0.0
+selective_reflection,1,2465,616,0,1.0
+selective_dedup_compaction,1,238,59,0,1.0

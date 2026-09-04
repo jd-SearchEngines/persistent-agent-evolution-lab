@@ -1,0 +1,38 @@
+[
+  {
+    "key": "d53a1a036678e8ac",
+    "content": "Project tests must use uv run pytest -q, never bare python.",
+    "category": "convention",
+    "source_session": "session-001",
+    "supersedes": null,
+    "active": false,
+    "created_at": ""
+  },
+  {
+    "key": "d53a1a036678e8ac",
+    "content": "Project tests must use uv run pytest -q, never bare python.",
+    "category": "convention",
+    "source_session": "session-001",
+    "supersedes": "d53a1a036678e8ac",
+    "active": false,
+    "created_at": ""
+  },
+  {
+    "key": "d53a1a036678e8ac",
+    "content": "Project tests must use uv run pytest -q, never bare python.",
+    "category": "convention",
+    "source_session": "session-001",
+    "supersedes": "d53a1a036678e8ac",
+    "active": false,
+    "created_at": ""
+  },
+  {
+    "key": "d53a1a036678e8ac",
+    "content": "Project tests must use uv run pytest -q, never bare python.",
+    "category": "convention",
+    "source_session": "session-001",
+    "supersedes": "d53a1a036678e8ac",
+    "active": true,
+    "created_at": ""
+  }
+]

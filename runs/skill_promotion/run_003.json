@@ -1,0 +1,37 @@
+{
+  "run_id": "skill-promotion-003",
+  "observations": [
+    {
+      "name": "safe-project-release",
+      "occurrences": 1,
+      "stable": true,
+      "projects": [
+        "fixture-1"
+      ]
+    },
+    {
+      "name": "safe-project-release",
+      "occurrences": 2,
+      "stable": true,
+      "projects": [
+        "fixture-2"
+      ]
+    },
+    {
+      "name": "safe-project-release",
+      "occurrences": 3,
+      "stable": true,
+      "projects": [
+        "fixture-3"
+      ]
+    }
+  ],
+  "promotion_gate": true,
+  "skill": "skills/safe-project-release/SKILL.md",
+  "fourth_project_triggered": true,
+  "skill_trigger_precision": 1.0,
+  "skill_reuse_success": 1.0,
+  "false_skill_creation": 0.0,
+  "provider": null,
+  "cost_usd": null
+}

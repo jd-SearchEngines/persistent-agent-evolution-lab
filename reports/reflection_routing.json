@@ -1,0 +1,30 @@
+{
+  "samples": 40,
+  "routing_accuracy": 1.0,
+  "confusion_matrix": {
+    "IGNORE": {
+      "IGNORE": 11,
+      "MEMORY": 0,
+      "SKILL_CANDIDATE": 0,
+      "HARNESS_RULE": 0
+    },
+    "MEMORY": {
+      "IGNORE": 0,
+      "MEMORY": 14,
+      "SKILL_CANDIDATE": 0,
+      "HARNESS_RULE": 0
+    },
+    "SKILL_CANDIDATE": {
+      "IGNORE": 0,
+      "MEMORY": 0,
+      "SKILL_CANDIDATE": 9,
+      "HARNESS_RULE": 0
+    },
+    "HARNESS_RULE": {
+      "IGNORE": 0,
+      "MEMORY": 0,
+      "SKILL_CANDIDATE": 0,
+      "HARNESS_RULE": 6
+    }
+  }
+}

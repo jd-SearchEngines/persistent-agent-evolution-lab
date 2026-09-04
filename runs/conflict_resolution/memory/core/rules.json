@@ -1,0 +1,56 @@
+[
+  {
+    "key": "ceb68686b5631fac",
+    "content": "Use npm for this repository.",
+    "category": "project_rule",
+    "source_session": "session-001",
+    "supersedes": null,
+    "active": false,
+    "created_at": ""
+  },
+  {
+    "key": "2629a7b88857c185",
+    "content": "Use pnpm for this repository after migration; it supersedes npm.",
+    "category": "project_rule",
+    "source_session": "session-002",
+    "supersedes": "ceb68686b5631fac",
+    "active": false,
+    "created_at": ""
+  },
+  {
+    "key": "ceb68686b5631fac",
+    "content": "Use npm for this repository.",
+    "category": "project_rule",
+    "source_session": "session-001",
+    "supersedes": "2629a7b88857c185",
+    "active": false,
+    "created_at": ""
+  },
+  {
+    "key": "2629a7b88857c185",
+    "content": "Use pnpm for this repository after migration; it supersedes npm.",
+    "category": "project_rule",
+    "source_session": "session-002",
+    "supersedes": "ceb68686b5631fac",
+    "active": false,
+    "created_at": ""
+  },
+  {
+    "key": "ceb68686b5631fac",
+    "content": "Use npm for this repository.",
+    "category": "project_rule",
+    "source_session": "session-001",
+    "supersedes": "2629a7b88857c185",
+    "active": false,
+    "created_at": ""
+  },
+  {
+    "key": "2629a7b88857c185",
+    "content": "Use pnpm for this repository after migration; it supersedes npm.",
+    "category": "project_rule",
+    "source_session": "session-002",
+    "supersedes": "ceb68686b5631fac",
+    "active": true,
+    "created_at": ""
+  }
+]

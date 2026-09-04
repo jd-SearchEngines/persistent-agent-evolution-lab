@@ -1,0 +1,26 @@
+[
+  {
+    "policy": "save_everything",
+    "memory_files": 1,
+    "memory_bytes": 6813,
+    "estimated_tokens": 1703,
+    "duplicate_count": 0,
+    "useful_memory_precision": 0.0
+  },
+  {
+    "policy": "selective_reflection",
+    "memory_files": 1,
+    "memory_bytes": 2465,
+    "estimated_tokens": 616,
+    "duplicate_count": 0,
+    "useful_memory_precision": 1.0
+  },
+  {
+    "policy": "selective_dedup_compaction",
+    "memory_files": 1,
+    "memory_bytes": 238,
+    "estimated_tokens": 59,
+    "duplicate_count": 0,
+    "useful_memory_precision": 1.0
+  }
+]

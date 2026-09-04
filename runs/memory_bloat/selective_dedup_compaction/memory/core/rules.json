@@ -1,0 +1,11 @@
+[
+  {
+    "key": "ed1bf1f6ae9ae7d3",
+    "content": "Durable convention: run tests with uv run pytest -q.",
+    "category": "convention",
+    "source_session": "s-0",
+    "supersedes": null,
+    "active": true,
+    "created_at": ""
+  }
+]

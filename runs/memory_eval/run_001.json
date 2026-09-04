@@ -1,0 +1,14 @@
+{
+  "run_id": "memory-001",
+  "memory_before": "[\n  {\n    \"key\": \"d53a1a036678e8ac\",\n    \"content\": \"Project tests must use uv run pytest -q, never bare python.\",\n    \"category\": \"convention\",\n    \"source_session\": \"session-001\",\n    \"supersedes\": null,\n    \"active\": false,\n    \"created_at\": \"\"\n  },\n  {\n    \"key\": \"d53a1a036678e8ac\",\n    \"content\": \"Project tests must use uv run pytest -q, never bare python.\",\n    \"category\": \"convention\",\n    \"source_session\": \"session-001\",\n    \"supersedes\": \"d53a1a036678e8ac\",\n    \"active\": false,\n    \"created_at\": \"\"\n  },\n  {\n    \"key\": \"d53a1a036678e8ac\",\n    \"content\": \"Project tests must use uv run pytest -q, never bare python.\",\n    \"category\": \"convention\",\n    \"source_session\": \"session-001\",\n    \"supersedes\": \"d53a1a036678e8ac\",\n    \"active\": true,\n    \"created_at\": \"\"\n  }\n]\n",
+  "memory_after": "[\n  {\n    \"key\": \"d53a1a036678e8ac\",\n    \"content\": \"Project tests must use uv run pytest -q, never bare python.\",\n    \"category\": \"convention\",\n    \"source_session\": \"session-001\",\n    \"supersedes\": null,\n    \"active\": false,\n    \"created_at\": \"\"\n  },\n  {\n    \"key\": \"d53a1a036678e8ac\",\n    \"content\": \"Project tests must use uv run pytest -q, never bare python.\",\n    \"category\": \"convention\",\n    \"source_session\": \"session-001\",\n    \"supersedes\": \"d53a1a036678e8ac\",\n    \"active\": false,\n    \"created_at\": \"\"\n  },\n  {\n    \"key\": \"d53a1a036678e8ac\",\n    \"content\": \"Project tests must use uv run pytest -q, never bare python.\",\n    \"category\": \"convention\",\n    \"source_session\": \"session-001\",\n    \"supersedes\": \"d53a1a036678e8ac\",\n    \"active\": false,\n    \"created_at\": \"\"\n  },\n  {\n    \"key\": \"d53a1a036678e8ac\",\n    \"content\": \"Project tests must use uv run pytest -q, never bare python.\",\n    \"category\": \"convention\",\n    \"source_session\": \"session-001\",\n    \"supersedes\": \"d53a1a036678e8ac\",\n    \"active\": true,\n    \"created_at\": \"\"\n  }\n]\n",
+  "new_session_context": [
+    "Project tests must use uv run pytest -q, never bare python."
+  ],
+  "cross_session_rule_retention": 1.0,
+  "ephemeral_leak_rate": 0.0,
+  "git_before_commit": "7507617d432579bf119f8e2b82ddcd6513bec044",
+  "git_after_commit": "a8d5644b5f7e91d4410f7a548f8ffe72a1b5d948",
+  "provider": null,
+  "cost_usd": null
+}

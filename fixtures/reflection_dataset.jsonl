@@ -1,0 +1,40 @@
+{"experience":"The user prefers technical explanations to start with the conclusion.","expected_route":"MEMORY","reason":"durable communication preference","category":"preference"}
+{"experience":"This session's debug port is 49173; do not reuse it later.","expected_route":"IGNORE","reason":"temporary task state","category":"temporary"}
+{"experience":"The project convention is to run tests with uv run pytest -q.","expected_route":"MEMORY","reason":"cross-session project convention","category":"convention"}
+{"experience":"Use a fixed seed for regression tests from now on.","expected_route":"MEMORY","reason":"user correction that changes future behavior","category":"correction","correction":true}
+{"experience":"A release workflow includes tests, secret scan, README check, and verified push.","expected_route":"SKILL_CANDIDATE","reason":"repeated reusable workflow","category":"repeated_workflow","steps":["tests","secret scan","README check","verified push"],"metadata":{"repeated":true}}
+{"experience":"For this one-off migration, inspect the schema, edit two files, and archive the log.","expected_route":"IGNORE","reason":"one-off workflow","category":"one_off","steps":["inspect schema","edit files","archive log"]}
+{"experience":"Never run destructive delete commands in production.","expected_route":"HARNESS_RULE","reason":"safety must be deterministic","category":"safety"}
+{"experience":"The service uses pnpm after the package-manager migration.","expected_route":"MEMORY","reason":"current project rule","category":"project_rule"}
+{"experience":"The temporary directory is /tmp/debug-xxxx for this run only.","expected_route":"IGNORE","reason":"ephemeral path","category":"temporary"}
+{"experience":"Across projects, publish by test, scan, validate docs, commit, and verify the remote SHA.","expected_route":"SKILL_CANDIDATE","reason":"stable reusable workflow","category":"repeated_workflow","steps":["tests","scan","docs","commit","remote SHA"],"metadata":{"repeated":true}}
+{"experience":"Please remember that the team likes concise commit messages.","expected_route":"MEMORY","reason":"team preference","category":"preference"}
+{"experience":"The current incident ticket is INC-49173 and can be forgotten after triage.","expected_route":"IGNORE","reason":"temporary task identifier","category":"temporary"}
+{"experience":"Production database drops require a hard denial before any model response.","expected_route":"HARNESS_RULE","reason":"runtime safety boundary","category":"safety"}
+{"experience":"Repeat the release checklist: test, scan secrets, check files, docs, status, commit, verify push.","expected_route":"SKILL_CANDIDATE","reason":"repeated release procedure","category":"skill","steps":["test","scan secrets","check files","docs","status","commit","verify push"],"metadata":{"repeated":true}}
+{"experience":"For this request only, use the staging bucket named debug-49173.","expected_route":"IGNORE","reason":"one-run resource","category":"temporary"}
+{"experience":"Future bug fixes should use uv run pytest -q rather than bare python.","expected_route":"MEMORY","reason":"corrected durable convention","category":"correction","correction":true}
+{"experience":"The release procedure is tests, secret scan, large-file check, docs, status, commit, push.","expected_route":"SKILL_CANDIDATE","reason":"cross-project procedure","category":"repeated_workflow","steps":["tests","secret scan","large-file check","docs","status","commit","push"],"metadata":{"repeated":true}}
+{"experience":"Use npm for this repository.","expected_route":"MEMORY","reason":"project package-manager rule","category":"project_rule"}
+{"experience":"Use pnpm for this repository after the migration; it supersedes npm.","expected_route":"MEMORY","reason":"new rule supersedes old rule","category":"project_rule","correction":true}
+{"experience":"Only during this debugging run, set VERBOSE_LOGS=1.","expected_route":"IGNORE","reason":"temporary flag","category":"temporary"}
+{"experience":"Explain tradeoffs after giving a one-sentence answer.","expected_route":"MEMORY","reason":"durable response preference","category":"preference"}
+{"experience":"A reusable release workflow must test, scan secrets, check large files, verify docs, commit, and verify remote SHA.","expected_route":"SKILL_CANDIDATE","reason":"stable multi-project skill","category":"repeated_workflow","steps":["test","scan secrets","large files","docs","commit","remote SHA"],"metadata":{"repeated":true}}
+{"experience":"Do not allow rm -rf against production paths, even when requested by a model.","expected_route":"HARNESS_RULE","reason":"model-independent denial","category":"safety"}
+{"experience":"The scratch branch name is debug-49173 and is not a project convention.","expected_route":"IGNORE","reason":"ephemeral branch","category":"temporary"}
+{"experience":"Use fixed seed 7 for all future regression fixtures.","expected_route":"MEMORY","reason":"future reproducibility rule","category":"correction","correction":true}
+{"experience":"A release handoff repeats the same seven checks across three repositories.","expected_route":"SKILL_CANDIDATE","reason":"repetition and generality","category":"repeated_workflow","steps":["tests","secret scan","large-file check","README","LICENSE","git status","push verification"],"metadata":{"repeated":true}}
+{"experience":"The user's preferred output format is conclusion first.","expected_route":"MEMORY","reason":"user preference","category":"preference"}
+{"experience":"The temporary port is 49173 only for the current process.","expected_route":"IGNORE","reason":"ephemeral information","category":"temporary"}
+{"experience":"Harness policy must deny truncate on production tables.","expected_route":"HARNESS_RULE","reason":"destructive safety rule","category":"safety"}
+{"experience":"Release once by editing a changelog, running tests, and sending a note.","expected_route":"IGNORE","reason":"one-off workflow lacks repetition evidence","category":"one_off","steps":["edit changelog","tests","send note"]}
+{"experience":"Keep the repository's test command as uv run pytest -q.","expected_route":"MEMORY","reason":"stable project convention","category":"convention"}
+{"experience":"Across three projects, run tests, scan, inspect docs, commit, and verify push.","expected_route":"SKILL_CANDIDATE","reason":"generalizable procedure","category":"repeated_workflow","steps":["tests","scan","docs","commit","verify push"],"metadata":{"repeated":true}}
+{"experience":"Never store API keys in persistent memory.","expected_route":"HARNESS_RULE","reason":"security boundary","category":"safety"}
+{"experience":"This one-off task's output folder is /tmp/debug-xxxx.","expected_route":"IGNORE","reason":"temporary folder","category":"temporary"}
+{"experience":"When corrected, future regression runs should be deterministic.","expected_route":"MEMORY","reason":"correction changes behavior","category":"correction","correction":true}
+{"experience":"A reusable project release skill performs validation before a verified push.","expected_route":"SKILL_CANDIDATE","reason":"reusable workflow candidate","category":"repeated_workflow","steps":["validation","verified push"],"metadata":{"repeated":true}}
+{"experience":"Production destructive operations require an explicit hard deny.","expected_route":"HARNESS_RULE","reason":"policy cannot be soft guidance","category":"safety"}
+{"experience":"Remember the team's preference for deterministic fixtures.","expected_route":"MEMORY","reason":"team preference","category":"preference"}
+{"experience":"For this run, retry the flaky endpoint three times.","expected_route":"IGNORE","reason":"temporary run tactic","category":"temporary"}
+{"experience":"Repeated release tasks share tests, security scan, documentation, commit, and remote verification.","expected_route":"SKILL_CANDIDATE","reason":"repeated stable workflow","category":"repeated_workflow","steps":["tests","security scan","documentation","commit","remote verification"],"metadata":{"repeated":true}}
