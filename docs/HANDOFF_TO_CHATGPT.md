@@ -3,7 +3,7 @@
 ## Current state
 
 - Branch: `main`
-- HEAD SHA at report generation: `c58a5bc5dc86ceb5994101867e08242caff531c9`
+- HEAD SHA at final handoff: `a7882252690f0816f91379f013064d0919139231`
 - CI: workflow configured at `.github/workflows/ci.yml`; local deterministic checks PASS.
 - Completed: v0.1 through v1.0 deterministic composition.
 - Lane: A (`synthetic but executable`); Lane B interface only and not run.
