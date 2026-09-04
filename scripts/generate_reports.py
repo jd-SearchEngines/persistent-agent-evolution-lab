@@ -114,7 +114,9 @@ def main() -> None:
     with out.open("w", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields)
         writer.writeheader()
-        writer.writerows(rows)
+        writer.writerows(
+            {key: "null" if value is None else value for key, value in row.items()} for row in rows
+        )
 
     (ROOT / "reports" / "season1").mkdir(parents=True, exist_ok=True)
     master = """# Season 1 Master Report
