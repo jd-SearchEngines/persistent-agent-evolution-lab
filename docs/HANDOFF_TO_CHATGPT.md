@@ -2,8 +2,8 @@
 
 ## Current state
 
-- Branch: `uninitialized`
-- HEAD SHA at report generation: `NOT_INITIALIZED`
+- Branch: `main`
+- HEAD SHA at report generation: `c58a5bc5dc86ceb5994101867e08242caff531c9`
 - CI: workflow configured at `.github/workflows/ci.yml`; local deterministic checks PASS.
 - Completed: v0.1 through v1.0 deterministic composition.
 - Lane: A (`synthetic but executable`); Lane B interface only and not run.
