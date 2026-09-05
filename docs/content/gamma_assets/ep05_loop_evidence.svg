@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+<rect width="1200" height="1500" fill="#f7f8fa"/>
+<style>
+.title{font:700 48px 'Noto Sans CJK SC','Arial',sans-serif;fill:#111827}
+.sub{font:400 20px 'DejaVu Sans Mono','Arial',monospace;fill:#6b7280}
+.h{font:700 34px 'Noto Sans CJK SC','Arial',sans-serif;fill:#111827}
+.t{font:400 28px 'Noto Sans CJK SC','Arial',sans-serif;fill:#374151}
+.m{font:400 26px 'DejaVu Sans Mono','Arial',monospace}
+.b{font:700 28px 'Noto Sans CJK SC','Arial',sans-serif}
+</style>
+<text x="60" y="85" class="title">真实 Skill Diff｜v1 → v2</text>
+<text x="60" y="135" class="sub">Source: reports/skill_evolution_v1_v2.diff</text>
+<rect x="60" y="220" width="1080" height="790" rx="24" fill="#0b1220"/>
+<text x="95" y="290" class="m" fill="#fca5a5">- version: 1</text>
+<text x="95" y="345" class="m" fill="#86efac">+ version: 2</text>
+<text x="95" y="450" class="m" fill="#fca5a5">- 7. Push.</text>
+<text x="95" y="515" class="m" fill="#86efac">+ 7. Run the final regression test after commit...</text>
+<text x="95" y="580" class="m" fill="#86efac">+ 8. Push and verify remote SHA.</text>
+<text x="95" y="700" class="m" fill="#fca5a5">- Validation: tests pass and remote push is reported.</text>
+<text x="95" y="765" class="m" fill="#86efac">+ Validation: final regression passes and local SHA</text>
+<text x="95" y="820" class="m" fill="#86efac">  equals verified remote SHA.</text>
+<rect x="60" y="1090" width="1080" height="270" rx="22" fill="#ecfdf5" stroke="#10b981" stroke-width="3"/>
+<text x="95" y="1160" class="h" fill="#065f46">真实结果</text>
+<text x="95" y="1230" class="t" fill="#065f46">v1 bad case → 更新 Skill → rerun → recovery = 1.0</text>
+<text x="95" y="1310" class="h" fill="#047857">Regression = PASS</text>
+</svg>
